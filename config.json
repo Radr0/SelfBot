@@ -1,0 +1,12 @@
+{
+    "token": "тут токен",
+    "password": "password-here",
+    "prefix": "R!",
+
+
+    "bitly_key": "key-here",
+    "cat_key": "key-here",
+    "weather_key": "key-here",
+    "cuttly_key": "key-here"
+
+}
