@@ -92,7 +92,7 @@ loop = asyncio.get_event_loop()
 
 intents = discord.Intents.all()
 Alucard = commands.Bot(command_prefix=commands.when_mentioned_or(
-    ">", "x", "$", "-", "a", "^", "!"), description='CRACKER', intents=intents)
+    ">", "x", "$", "-", "a", "^", "!"), description='DIGO', intents=intents)
 
 Alucard.autodm = False
 Alucard.autodmmsg = 'Im currently sleeping'
@@ -198,13 +198,24 @@ def startprint():
         privnote = "Disabled"
 
     print(f'''{Fore.RESET}
+                                                                                                    
+ 
+ 
+██████╗░░█████╗░██████╗░██████╗░░█████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██████╔╝███████║██║░░██║██████╔╝██║░░██║
+██╔══██╗██╔══██║██║░░██║██╔══██╗██║░░██║
+██║░░██║██║░░██║██████╔╝██║░░██║╚█████╔╝
+╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝░╚════╝░                                                                                                     
+ 
+ 
 
-                                {Fore.CYAN}VERSION:{Fore.GREEN} v{SELFBOT.__version__}(not official)
-                                {Fore.CYAN}Вошёл как:{Fore.GREEN} {Alucard.user.name}#{Alucard.user.discriminator}
-
-
-
-
+                                {Fore.CYAN}VERSION:{Fore.RED} v{SELFBOT.__version__}(not official)
+                                {Fore.CYAN}Вошёл как:{Fore.RED} {Alucard.user.name}#{Alucard.user.discriminator}
+                                {Fore.CYAN}ID: {Fore.GREEN}{Alucard.user.id}
+                                {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
+                                {Fore.CYAN}info: {Fore.GREEN}Developer discord server: https://discord.gg/9haG6m4h7p
+                                
     '''+Fore.RESET)
 
 def Clear():
@@ -317,7 +328,7 @@ def RandString(st):
 colorama.init()
 Alucard = discord.Client()
 Alucard = commands.Bot(
-    description='CRACKER Selfbot',
+    description='CARNAGE Selfbot',
     command_prefix=prefix,
     self_bot=True
 )
@@ -332,36 +343,37 @@ Alucard.remove_command('help')
 @Alucard.command(pass_context=True)
 async def help(ctx):
     help_text = f'''
-```css
-
-
-██████╗░░█████╗░██████╗░██████╗░░█████╗░
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
-██████╔╝███████║██║░░██║██████╔╝██║░░██║
-██╔══██╗██╔══██║██║░░██║██╔══██╗██║░░██║
-██║░░██║██║░░██║██████╔╝██║░░██║╚█████╔╝
-╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝░╚════╝░
-[ {ctx.prefix}Fun ] - весёлости и развлечения.
-[ {ctx.prefix}Reaction ] - команды взаимодействия с участниками.
+```css                                                                         
+╭━━━┳━━┳━━━┳━━━╮
+╰╮╭╮┣┫┣┫╭━╮┃╭━╮┃
+╱┃┃┃┃┃┃┃┃╱╰┫┃╱┃┃
+╱┃┃┃┃┃┃┃┃╭━┫┃╱┃┃
+╭╯╰╯┣┫┣┫╰┻━┃╰━╯┃
+╰━━━┻━━┻━━━┻━━━╯
+[ {ctx.prefix}Fun ] - команды для веселья.
+[ {ctx.prefix}Reaction ] - команды реакций.
+[ {ctx.prefix}Nsfw ] - NSFW команды.
 [ {ctx.prefix}Mod ] - команды модерации.
-[ {ctx.prefix}Text ] - команды работы с текстом и сообщениями.
-[ {ctx.prefix}Token ] - команды работы с токенами.
-[ {ctx.prefix}Tools ] - полезные инструменты.
+[ {ctx.prefix}Crash ] - команды для крашеров.
+[ {ctx.prefix}Text ] - команды сообщений.
+[ {ctx.prefix}Token ] - команды с токеном.
+[ {ctx.prefix}Tools ] - полезные вещи.
 [ {ctx.prefix}Animals ] - команды с животными.
 [ {ctx.prefix}Status ] - команды статуса.
-[ {ctx.prefix}Games ] - всякие игры.
-[ {ctx.prefix}Info ] - информационные команды.
+[ {ctx.prefix}Games ] - команды игр.
+[ {ctx.prefix}Info ] - команды информации.
+-----------------------
+[ rdaro#2114 ]
 ```
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
-radro#2114
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         description=help_text,
-        color=0xff0000
+        color=810508
     )
     await ctx.send(embed=embed)
 
@@ -370,13 +382,9 @@ radro#2114
 async def Text(ctx):
 
     text_text = f'''
-
 ```css
-
-[ radro ]
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}vape <Текст> ] -  делает пропуски между буквами капсом.
 [ {ctx.prefix}animate <Текст> ] - делает сообщение анимированным.
 [ {ctx.prefix}reverse <Текст> ] - пишет текст наоборот.
@@ -388,16 +396,16 @@ async def Text(ctx):
 [ {ctx.prefix}s <Текст> ] - пишет сообщение от имени бота.
 [ {ctx.prefix}edit <кол-во> <Текст> ] - редактирует введённое количество ваших сообщения на введенный текст.
 ```
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
-
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Команды текста.',
         description=text_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -407,32 +415,34 @@ async def Text(ctx):
 async def Fun(ctx):
 
     fun_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}reacts <кол-во сообщений | эмодзи> ] - ставит выбранную реакцию на определённое кол-во сообщений.
 [ {ctx.prefix}flex ] - танцы в чате.
+[ {ctx.prefix}fbi [@Ping | ID] - упомятого участника повяжет ФСБ.
+[ {ctx.prefix}gay <@Ping | ID> ] - оскорбить участника.
 [ {ctx.prefix}boom ] - взрывное сообщение.
 [ {ctx.prefix}fleshka ] - кинуть ослепляющую гранату на сервер.
 [ {ctx.prefix}animatenick <Новый ник> ] - сделайте себе анимированный ник.
 [ {ctx.prefix}stopanimatenick ] - остановить анимацию ника.
+[ {ctx.prefix}thanos ] - щелчок таноса.
+[ {ctx.prefix}joke ] - шутка.
+[ {ctx.prefix}dick <упоминание> ] - член упомянутого юзера.
 [ {ctx.prefix}combine <ник1> <ник2> ] - комбинирует 2 ника.
 [ {ctx.prefix}say <текст> ] - отпвряет текст в рамочке, заменяет некоторые буквы цифрами.
-[ {ctx.prefix}tweet <ник> <текст> ] - делает фейк публикацию.
-
+[ {ctx.prefix}tweet <имя> <текст> ] - создаст твит с указанным автором и текстом.
 ```
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Весёлости и развлечения.',
         description=fun_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -442,25 +452,22 @@ async def Fun(ctx):
 async def Games(ctx):
 
     fun_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}minesweeper <размер поля> ] - сапер.
 [ {ctx.prefix}slot ] - слоты.
 ```
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='игры.',
         description=fun_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -470,23 +477,26 @@ async def Games(ctx):
 async def Reaction(ctx):
 
     react_text = f'''
-
 ```css
-
-Удалено:(
-
-
-
-
-```css
+[ DIGO ]
+<> - обязательный параметр.  [] - необязательный параметр.
+[ {ctx.prefix}kiss [@Ping | ID] - поцеловать участника.
+[ {ctx.prefix}poke [@Ping | ID] - тыкнуть участника.
+[ {ctx.prefix}sex  [@Ping | ID] - заняться с участником сексом.
+[ {ctx.prefix}pet  [@Ping | ID] - погладить участника.
+[ {ctx.prefix}hit  [@Ping | ID] - ударить участника.
+[ {ctx.prefix}kill [@Ping | ID] - убить участника.
 ```
-
+**[Наш сервер](https://discord.gg/wT8N3BWRJb)**
+```css
+# radro#2114
+```
 '''
 
     embed = discord.Embed(
         title='Команды взаимодействия с участниками.',
         description=react_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -497,17 +507,24 @@ async def Nsfw(ctx):
 
     nsfw_text = f'''
 ```css
-
-удалено!
-
+[ DIGO ]
+<> - Обязательный параметр.  [] - необязательный параметр.
+[ {ctx.prefix}cum ] - секс со шлюхой.
+[ {ctx.prefix}lesbian ] - лесбиянки.
+[ {ctx.prefix}anal ] - анальные развлечения.
+[ {ctx.prefix}tits ] - большие сиськи.
+[ {ctx.prefix}blowjob ] - минет.
+```
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='NSFW команды.',
         description=nsfw_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -518,23 +535,21 @@ async def Mod(ctx):
 
     mod_text = f'''
 ```css
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}ban <@Ping | ID> ] - забанить участника.
 [ {ctx.prefix}kick <@Ping | ID> ] - кикнуть пользователя.
 ```
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Команды модерации.',
         description=mod_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -544,20 +559,30 @@ async def Mod(ctx):
 async def Crash(ctx):
 
     crash_text = f'''
-
 ```css
-
-Удалено!
-
+[ DIGO ]
+<> - Обязательный параметр.  [] - необязательный параметр.
+[ {ctx.prefix}auto ] - автоматический краш сервера.
+[ {ctx.prefix}spamls <@Ping | ID> <текст> ] - спам в лс упомянутому участнику.
+[ {ctx.prefix}banall ] - забанить всех участников на сервере.
+[ {ctx.prefix}kickall ] - кик всех участников на сервере.
+[ {ctx.prefix}admineveryone ] - админка всем участникам на сервера.
+[ {ctx.prefix}spamchannels ] - спам множеством каналов.
+[ {ctx.prefix}ghostspam ] - невидимый спам.
+[ {ctx.prefix}delchannels ] - удалить все каналы на сервере.
+[ {ctx.prefix}rolespam ] - спам множеством ролей.
+[ {ctx.prefix}delroles ] - удаление всех ролей на сервере.
+```
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
-
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Команды краша.',
         description=crash_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -567,26 +592,25 @@ async def Crash(ctx):
 async def Status(ctx):
 
     status_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}stream <stream_name> ] - отоброжает статус "Стримит <указанное название>".
 [ {ctx.prefix}listening <listening_name> ] - отоброжает статус "Слушает <указанное название>".
 [ {ctx.prefix}competing <competing_name> ] - отоброжает статус "Соревнуеться <указанное название>".
 [ {ctx.prefix}watching <watching_name> ] - отоброжает статус "Смотрит <указанное название>".
 [ {ctx.prefix}chp ] - отоброжает статус "Стримит <курс BTC в USD>".
 ```
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Команды статуса.',
         description=status_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -596,27 +620,24 @@ async def Status(ctx):
 async def Animals(ctx):
 
     status_text = f'''
-
 ```css
-
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}sadcat ] - грустный котёнок.
 [ {ctx.prefix}cat ] - кот.
 [ {ctx.prefix}dog ] - собака.
 [ {ctx.prefix}fox ] - лиса.
 ```
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Животные.',
         description=status_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -626,32 +647,26 @@ async def Animals(ctx):
 async def Info(ctx):
 
     react_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}user_info [@Ping | ID] - Посмотреть профиль.
 [ {ctx.prefix}server_info ] - Информация о сервере.
 [ {ctx.prefix}emoji_info  [Эмодзи] - Инфо о эмодзи.
 [ {ctx.prefix}role_info  [@Ping] - Инфо о роли.
 [ {ctx.prefix}av <упоминание юзера> ] - получает и отпрвляет аватарку упомянутого юзера.
 [ {ctx.prefix}revav <упоминание юзера> ] - исчет автарку упомянутого юзера в гугле.
-
 ```
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
-
+# radro#2114
 ```
-
 '''
 
     embed = discord.Embed(
         title='Информация о всяком',
         description=react_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -661,27 +676,21 @@ async def Info(ctx):
 async def Deanon(ctx):
 
     react_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}geoip <ip> ] - данные по айпи адресу.
-
 ```
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
-
+# radro#2114
 ```
-
 '''
 
     embed = discord.Embed(
-        title='',
+        title='Деаноним пидоров',
         description=react_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -691,13 +700,9 @@ async def Deanon(ctx):
 async def Tools(ctx):
 
     status_text = f'''
-
 ```css
-
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
 [ {ctx.prefix}lmgtfy <запрос> ] - поисковой запрос на сайте lmgtfy.com.
 [ {ctx.prefix}encode <текст на английском> ] - кодирует введенное сообщение.
 [ {ctx.prefix}decode <закодированный текст> ] - декодирует введенное сообщение.
@@ -709,17 +714,16 @@ async def Tools(ctx):
 [ {ctx.prefix}bitly <ссылка> ] - сокращает ссылку.
 [ {ctx.prefix}hypesquad <тип> ] - меняет значек на вашем аккаунте.
 ```
-
-
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Полезные инструменты.',
         description=status_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -729,13 +733,9 @@ async def Tools(ctx):
 async def Token(ctx):
 
     status_text = f'''
-
 ```css
-
-
+[ DIGO ]
 <> - Обязательный параметр.  [] - необязательный параметр.
-
-
 [ {ctx.prefix}login <token> ] - заходит на акк по токену.
 [ {ctx.prefix}botlogin <token> ] - заходит на акк бота по токену.
 [ {ctx.prefix}tokenddos <token> ] - быстро меняет настройки акканта.
@@ -743,15 +743,16 @@ async def Token(ctx):
 [ {ctx.prefix}disablerv2 <token> ] - банит аккаунт по токену v2.
 [ {ctx.prefix}hypesquad1 <token> <тип>] - меняет значек на указнном аккаунте.
 ```
-
+**[Наш сервер](https://discord.gg/9haG6m4h7p)**
 ```css
+# radro#2114
 ```
 '''
 
     embed = discord.Embed(
         title='Команды токенов.',
         description=status_text,
-        color=0xff0000
+        color=810508
     )
 
     await ctx.send(embed=embed)
@@ -772,7 +773,7 @@ async def revav(ctx, user: discord.Member = None):  # b'\xfc'
     except Exception as e:
         embed = discord.Embed(
             description=f"{e}",
-            color=0xff0000
+            color=0xff00
         )
         await ctx.send(f"*Произошла ошибка:*", embed=embed)
 
@@ -811,7 +812,7 @@ async def server_info(ctx):
         embed.set_footer(
             text=f"ID: {ctx.guild.id}")
         embed.set_footer(
-            text='RADRO#2114',
+            text='DIGOBOT | Self Bot verison',
             icon_url='https://cdn.discordapp.com/avatars/690149608403370032/79464ba1a835bf756799d2b9326497e1.webp?size=1024')
         await ctx.send(embed=embed)
 
@@ -1780,7 +1781,7 @@ async def nick(ctx):
     await ctx.message.delete()
     for member in ctx.guild.members:
         try:
-            await member.edit(nick="раб радро")
+            await member.edit(nick="кловун")
         except:
             pass
 
@@ -1971,13 +1972,34 @@ async def say(ctx, *, text):  # b'\xfc'
     await ctx.send(f'`{text}`')
 
 
+@Alucard.command(aliases=['dong', 'penis'])
+async def dick(ctx, *, user: discord.Member=None):  # b'\xfc
+    await ctx.message.delete()
+    topchels = ["760899937482833981", "532886707612286977", "610453921726595082"]
+    if user is None:
+        user=ctx.author
+        userid = ctx.author.id
+    else:
+        userid = user.id
+    if str(userid) in topchels:
+        dong="==============="
+        size = "15"
+    else:
+        dong=""
+        size=random.randint(1, 15)
+        dong=""
+        for _i in range(0, size):
+            dong += "="
+    em=discord.Embed(title=f"{user}'s Dick size", description=f"8{dong}D ({size}см)", colour=0x0000)
+    await ctx.send(embed=em)
+
 
 @Alucard.command(aliases=['editspam', 'massedit'])
 async def edit(ctx, count=None, *, mesg=None):
     await ctx.message.delete()
     if count == None or mesg == None:
         randcolor=random.randint(0x000000, 0xFFFFFF)
-        embed=discord.Embed(title=" - Редактирование сообщений",
+        embed=discord.Embed(title="DIGO - Редактирование сообщений",
                               description=f"Вы не ввели кол-во сообщений или текст для замены.\n{prefix.strip()}Редактирование [кол-во] [текст]", color=randcolor)
 
         await ctx.send(embed=embed)
@@ -1985,7 +2007,7 @@ async def edit(ctx, count=None, *, mesg=None):
         edited=0
         randcolor=random.randint(0x000000, 0xFFFFFF)
         embed=discord.Embed(
-            title="CRACKER", description=f"Редактирование прошло успешно.", color=randcolor)
+            title="DIGO", description=f"Редактирование прошло успешно.", color=randcolor)
         msg=await ctx.send(embed=embed)
         async for message in ctx.channel.history(limit=int(count)):
             try:
@@ -2225,7 +2247,6 @@ async def flex(ctx):
 ⠀⠒⠿⠛⠉⠿⣿
 ⠀⠀⠀⠀⠀⣀⣿⣿
 ⠀⠀⠀⠀⣶⠿⠿⠛
-
 ```""")
     await asyncio.sleep(1)
     await message.edit(content=" ")
@@ -2243,7 +2264,7 @@ async def aboba(ctx, count=None):
     await ctx.message.delete()
     if count == None:
         randcolor=random.randint(0x000000, 0xFFFFFF)
-        embed=discord.Embed(title=" - Редактирование сообщений",
+        embed=discord.Embed(title="CRACKER - Редактирование сообщений",
                               description=f"Вы не ввели кол-во сообщений.\n{prefix.strip()}Редактирование [кол-во]", color=randcolor)
 
         await ctx.send(embed=embed)
@@ -2263,6 +2284,35 @@ async def aboba(ctx, count=None):
                 pass
 
 
+@Alucard.command()
+async def fbi(ctx, *, user):
+    await ctx.message.delete()
+    msg=await ctx.send('> **knock knock**')
+    await asyncio.sleep(2)
+    await msg.edit(content='> **FBI OPEN UP**')
+    await asyncio.sleep(2)
+    reas=['fraud',
+            'robbery',
+            'murder',
+            'unethical hacking',
+            'drugs']
+    await msg.edit(content=f'> {user} вы будете повязаны за {random.choices(reas)}')
+    await asyncio.sleep(3)
+    await msg.edit(content='> https://tenor.com/view/fbi-raid-swat-gif-11500735')
+
+
+@ Alucard.command(aliases=["dum"])
+async def gay(ctx, user="‌‌"):
+    await ctx.message.delete()
+    message=await ctx.send(f'Ты {user}')
+    time.sleep(0.5)
+    await message.edit(content='Ебаный')
+    time.sleep(0.5)
+    await message.edit(content=f'Гандон')
+    time.sleep(0.5)
+    await message.edit(content=f'Пидор {user}')
+    time.sleep(1)
+    await message.edit(content='Мать ебал')
 
 
 @Alucard.command()
@@ -2408,6 +2458,28 @@ async def poke(ctx, member: discord.Member):
 
 
 @Alucard.command()
+async def sex(ctx, member: discord.Member):
+
+    embed=discord.Embed(
+        description=f'<@{ctx.author.id} занялся сексом с <@{member.id}>🥰🥰🥰',
+        color=0xff0000
+    )
+    embed.set_image(
+        url='https://cdn.discordapp.com/attachments/839194547904053300/862796516048764938/unnamed.gif')
+
+    await ctx.send(embed=embed)
+
+    if member is None:
+
+        nine=discord.Embed(
+            description=f'<@{ctx.author.id}> успешно подрочил!🍆',
+            color=0xff0000
+        )
+
+        await ctx.send(embed=nine)
+
+
+@Alucard.command()
 async def pet(ctx, member: discord.Member):
 
     embed=discord.Embed(
@@ -2450,6 +2522,162 @@ async def hit(ctx, member: discord.Member):
 
         await ctx.send(embed=nine)
 
+
+@Alucard.command()
+async def kill(ctx, member: discord.Member):
+
+    embed=discord.Embed(
+        description=f'ШОК! <@{ctx.author.id}> убил <@{member.id}>!',
+        color=0xff0000
+    )
+    await ctx.send(embed=embed)
+
+    if member is None:
+
+        nine=discord.Embed(
+            description=f'<@{ctx.author.id}> совершил самоубийство!',
+            color=0xff0000
+        )
+
+        await ctx.send(embed=nine)
+
+'''
+Команды хентая.
+'''
+
+
+@Alucard.command()
+async def cum(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/cum")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_cumslut.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
+
+
+@Alucard.command()
+async def lesbian(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/les")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_lesbian.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
+
+
+@Alucard.command()
+async def spamh(ctx, *, hook):
+    global fuck
+    fuck=True
+    while fuck:
+        requests.post(hook, data={'content': "@everyone NIGGAS"})
+
+
+@Alucard.command()
+async def anal(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/anal")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_anal.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
+
+
+@Alucard.command()
+async def tits(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/tits")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_tits.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
+
+
+@Alucard.command()
+async def blowjob(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/blowjob")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_blowjob.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
+
+'''
+Команды модерации.
+'''
+
+
+@Alucard.command()
+async def ban(ctx, member: discord.Member, *, reason="No reason given",):
+    """ban someone, can also be used to ban someone not in the guild using their id
+    Parameters
+    • member - the member to ban
+    • reason - reason why the member was banned
+    """
+    if type(member) == discord.Member:
+        await ctx.guild.ban(member, reason=reason, delete_message_days=0)
+    else:
+        await ctx.guild.ban(
+            discord.Object(member), reason=reason, delete_message_days=0
+        )
+    emb=await self.format_mod_embed(ctx, member, True, "ban")
+    await ctx.send(embed=emb)
+
+
+@Alucard.command()
+async def kick(ctx, member: discord.Member, *, reason="No reason given"):
+    """kick someone
+    Parameters
+    • member - the member to kick
+    • reason - reason why the member was kicked
+    """
+    self.saved_roles[member.id]=member.roles[1:]
+    try:
+        await ctx.guild.kick(member, reason=reason)
+    except:
+        success=False
+    else:
+        success=True
+
+    emb=await self.format_mod_embed(ctx, member, success, "kick")
+
+    await ctx.send(embed=emb)
 
 
 '''
@@ -2534,7 +2762,7 @@ async def destroy(ctx, count=None):
     await ctx.message.delete()
     if count == None:
         randcolor=random.randint(0x000000, 0xFFFFFF)
-        embed=discord.Embed(title="RADRO - Самоуничтожение сообщений",
+        embed=discord.Embed(title="CRACKER - Самоуничтожение сообщений",
                               description=f"Вы не ввели кол-во сообщений.\n{prefix.strip()}Редактирование [кол-во]", color=randcolor)
         await ctx.send(embed=embed)
     else:
@@ -2560,7 +2788,7 @@ async def destroy(ctx, count=None):
                     pass
     randcolor=random.randint(0x000000, 0xFFFFFF)
     embed=discord.Embed(
-        title="Скрепыш - Самоуничтожение сообщений", description=f"Самоуничтожение окончено. Уничтожил {edited} сообщений", color=randcolor)
+        title="CRACKER - Самоуничтожение сообщений", description=f"Самоуничтожение окончено. Уничтожил {edited} сообщений", color=randcolor)
     msg=await ctx.send(embed=embed)
 
 
@@ -2590,6 +2818,22 @@ async def spoiler2(ctx, *, text):
             name=name + f'{letter}'
     await ctx.send(name)
 
+
+@ Alucard.command(aliases=["vagina"])
+async def pussy(ctx):
+    await ctx.message.delete()
+    r=requests.get("https://nekos.life/api/v2/img/pussy")
+    res=r.json()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(res['url']) as resp:
+                image=await resp.read()
+        with io.BytesIO(image) as file:
+            await ctx.send(file=discord.File(file, f"CRACKER_pussy.gif"))
+    except:
+        em=discord.Embed()
+        em.set_image(url=res['url'])
+        await ctx.send(embed=em)
 
 
 @Alucard.command()
@@ -2791,7 +3035,7 @@ async def on_connect():
 
     startprint()
     # ctypes.windll.kernel32.SetConsoleTitleW(
-        # f'[CRACKER Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+        # f'[DIGO Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 
 
 @Alucard.event
