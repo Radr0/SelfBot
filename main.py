@@ -214,7 +214,7 @@ def startprint():
                                 {Fore.CYAN}Вошёл как:{Fore.RED} {Alucard.user.name}#{Alucard.user.discriminator}
                                 {Fore.CYAN}ID: {Fore.GREEN}{Alucard.user.id}
                                 {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-                                {Fore.CYAN}info: {Fore.GREEN}Developer discord server: https://discord.gg/9haG6m4h7p
+                                {Fore.CYAN}info: {Fore.GREEN}Developer discord server: https://discord.gg/KymasCpNWZ
                                 
     '''+Fore.RESET)
 
